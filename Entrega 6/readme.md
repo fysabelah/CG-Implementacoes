@@ -1,0 +1,1 @@
+Projetar um cubo na tela utilizando back-face detection e a projeção implementada no exercício anterior. Entregar o código fonte e mostrar e apresentar (explicando a técnica e os detalhes da implementação) o código funcionando no dia 29/11/2019.
