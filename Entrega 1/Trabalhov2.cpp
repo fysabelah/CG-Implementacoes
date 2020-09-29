@@ -8,7 +8,7 @@ using namespace std;
 typedef GLfloat Matrix3x3[3][3];
 Matrix3x3 CachedTransformationMatrix;
 
-//Essa função define seta a matriz do paramêtro para ser a matrix identidade
+//Essa função seta a matriz do paramêtro para ser a matrix identidade
 void SetIdMatrix(Matrix3x3 MatrixToSet)
 {
 	for(int i = 0;i < 3;i ++)
@@ -19,10 +19,10 @@ void SetIdMatrix(Matrix3x3 MatrixToSet)
 //Ao criar o vertice, pegamos o vértice final a partir da matriz de transformações(CachedTransformationMatrix)
 //Temos:
 /*
-VerticesFinais        CachedMatrix 	     VerticesPassados
-|realVerX|			|- - -|     			|verX|
-|realVerY|  =		|- - -|  	x  			|verY|
-|z|					|- - -|     			|  1 |
+VerticesFinais        CachedMatrix 	            VerticesPassados
+|realVerX|		|- - -|     			|verX|
+|realVerY|  =		|- - -|  	x  		|verY|
+|z|			|- - -|     			|  1 |
 */
 void CriarVertice(GLfloat verX, GLfloat verY)
 {
