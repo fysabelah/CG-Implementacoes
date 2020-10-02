@@ -19,7 +19,7 @@ int main(int argc, char** argv){
 	glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize (300, 300); 
 	glutInitWindowPosition (100, 100); 
-	glutCreateWindow ("Transformações"); 
+	glutCreateWindow ("Transformacoes"); 
 	glClearColor(1.0, 1.0, 1.0, 0.0); 
 	glShadeModel (GL_FLAT); 
 	glOrtho (0, 1, 0, 1, -1 ,1); 
@@ -29,7 +29,7 @@ int main(int argc, char** argv){
 	glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize (300, 300); 
 	glutInitWindowPosition (250, 250); 
-	glutCreateWindow ("Translação");
+	glutCreateWindow ("Translacao");
 	glClearColor(1.0, 1.0, 1.0, 0.0);
 	glutDisplayFunc(translacao);
 	
@@ -46,7 +46,7 @@ int main(int argc, char** argv){
 	glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize (300, 300); 
 	glutInitWindowPosition (450, 450); 
-	glutCreateWindow ("ROtação");
+	glutCreateWindow ("Rotacao");
 	glClearColor(1.0, 1.0, 1.0, 0.0);
 	glutDisplayFunc(rotacao);
 	
