@@ -18,8 +18,8 @@ int main(int argc, char** argv){
 	glutInit(&argc, argv); 
 	glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize (300, 300); 
-	glutInitWindowPosition (100, 100); 
-	glutCreateWindow ("Transformacoes"); 
+	glutInitWindowPosition (50, 200); 
+	glutCreateWindow ("Objeto original"); 
 	glClearColor(1.0, 1.0, 1.0, 0.0); 
 	glShadeModel (GL_FLAT); 
 	glOrtho (0, 1, 0, 1, -1 ,1); 
@@ -28,16 +28,16 @@ int main(int argc, char** argv){
 	//Translação
 	glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize (300, 300); 
-	glutInitWindowPosition (250, 250); 
-	glutCreateWindow ("Translacao");
+	glutInitWindowPosition (375, 20); 
+	glutCreateWindow ("Objeto após Translação");
 	glClearColor(1.0, 1.0, 1.0, 0.0);
 	glutDisplayFunc(translacao);
 	
 	//Escala
 	glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize (300, 300); 
-	glutInitWindowPosition (350, 350); 
-	glutCreateWindow ("Escala");
+	glutInitWindowPosition (700, 200); 
+	glutCreateWindow ("Objeto após Escala");
 	glClearColor(1.0, 1.0, 1.0, 0.0);
 	glutDisplayFunc(escala);
 
@@ -45,8 +45,8 @@ int main(int argc, char** argv){
 	//Rotação
 	glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize (300, 300); 
-	glutInitWindowPosition (450, 450); 
-	glutCreateWindow ("Rotacao");
+	glutInitWindowPosition (1025, 200); 
+	glutCreateWindow ("Objeto após Rotação");
 	glClearColor(1.0, 1.0, 1.0, 0.0);
 	glutDisplayFunc(rotacao);
 	
