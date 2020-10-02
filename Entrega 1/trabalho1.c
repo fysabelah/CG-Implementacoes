@@ -48,7 +48,7 @@ int main(int argc, char** argv){
 	glutInitWindowPosition (450, 450); 
 	glutCreateWindow ("ROtação");
 	glClearColor(1.0, 1.0, 1.0, 0.0);
-	glutDisplayFunc(escala);
+	glutDisplayFunc(rotacao);
 	
 
 	glutMainLoop();	
